@@ -10,7 +10,7 @@ app.get('/', function(request, response) {
 	}
 	return data;
   });
-  response.send('Hello World!' + out);
+  response.send(out);
 });
 
 app.get('/', function(request, response) {
